@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=uizard
+description: >-
+  First-party packages published by Uizard Technologies. Uizard ships no public
+  API and no client SDKs; the only registry presence found is open-source
+  developer tooling published under the @uizard npm scope from the
+  uizard-technologies GitHub organization (verified via the npm registry
+  repository field). PyPI has no uizard package (404). No packages found on
+  Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, or crates.io searches
+  for first-party Uizard client libraries.
+packages:
+  - language: typescript
+    registry: npm
+    name: "@uizard/nx-fast-s3-cache"
+    url: https://www.npmjs.com/package/@uizard/nx-fast-s3-cache
+    source: https://github.com/uizard-technologies/nx-fast-s3-cache
+    install: npm install @uizard/nx-fast-s3-cache
+    version: 1.0.3
+    official: true
+    note: >-
+      Nx build-cache plugin (S3-backed) — internal developer tooling open-sourced
+      by Uizard, not an API client SDK.

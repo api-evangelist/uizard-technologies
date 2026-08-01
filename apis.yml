@@ -1,8 +1,15 @@
 aid: uizard-technologies
 name: Uizard Technologies
-description: Uizard Technologies is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Uizard is an AI-powered UI design and prototyping platform that lets non-designers turn text
+  prompts, screenshots, and hand-drawn sketches into editable mockups and multi-screen prototypes.
+  Founded in Copenhagen out of the pix2code machine-learning research project, Uizard ships AI
+  features including Autodesigner 2.0, Design Assistant, Screenshot Scanner, Wireframe Scanner, and
+  Design Review, and joined Miro in May 2024 while continuing to operate as its own product. It was
+  surfaced as a portfolio company of insight-partners. Uizard publishes no public developer portal,
+  API documentation, or client SDKs, so this profile captures the company's real public web, legal,
+  support, release-notes, and security surface plus its GitHub organization and first-party
+  open-source tooling.
 url: https://raw.githubusercontent.com/api-evangelist/uizard-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +17,29 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://uizard.io/opengraph-2021-04-26-10-35.png
 tags:
 - Company
+- Design
+- Artificial Intelligence
+- Prototyping
+- Wireframing
+- UI Design
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/uizard-technologies-domain-security.yml
 - type: Website
   url: https://uizard.io/
+- type: About
+  url: https://uizard.io/about
+- type: Blog
+  url: https://uizard.io/blog
+- type: Pricing
+  url: https://uizard.io/pricing
+- type: SignUp
+  url: https://app.uizard.io/auth/sign-up
+- type: Login
+  url: https://app.uizard.io/auth/login
+- type: Support
+  url: https://support.uizard.io/en/
+- type: TermsOfService
+  url: https://uizard.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://uizard.io/privacy
+- type: GitHubOrganization
+  url: https://github.com/uizard-technologies
+- type: ChangeLog
+  url: changelog/uizard-technologies-changelog.yml
+- type: Packages
+  url: packages/uizard-technologies-packages.yml
+- type: LLMsTxt
+  url: llms/uizard-technologies-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

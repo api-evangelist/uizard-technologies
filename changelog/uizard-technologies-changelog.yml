@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: searched
+source: https://updates.uizard.io/
+docs: https://headwayapp.co/uizard-updates
+description: >-
+  Structured capture of Uizard's public product release notes. Uizard publishes
+  product updates at updates.uizard.io, which redirects (301) to a Headway
+  changelog at headwayapp.co/uizard-updates. Entries are product-level (no API
+  versioning scheme — Uizard exposes no public API). Entry dates were not
+  captured at fetch time; the live Headway page is the source of truth.
+versioning:
+  scheme: none (product release notes, no public API versioning)
+platform: Headway
+entries:
+  - title: Autodesigner 2.0 is here
+    category: New
+    summary: Combines the conversational flow of ChatGPT with Uizard's generative design capabilities.
+  - title: Design Review
+    category: New
+    summary: AI-powered feedback tool to identify design strengths and areas needing improvement.
+  - title: Improved export speeds
+    category: Improvement
+    summary: Increase in download speed, particularly for larger projects and slower connections.
+  - title: Comments V2
+    category: New
+    summary: Simplified comments sidebar with thread management, indicators, and link sharing.
+  - title: General Improvements
+    category: Improvement
+    summary: Keyboard shortcuts aligned to industry standards; CMD+U underlining fixed; zoom shortcuts visible.
+  - title: Updated Comments feature
+    category: Improvement
+    summary: Comments relocated to top navigation; redesigned cursor and pin styling; hover details display.
+  - title: Pasting Feature Improvements
+    category: Improvement
+    summary: Enhanced paste positioning on screens, canvas, and context menus with relative positioning preserved.
+  - title: Autodesigner & Figma plugin improvements
+    category: Improvement
+    summary: Figma plugin now supports SVG; import assistant added for Chrome users.
+  - title: Figma to Uizard plugin
+    category: New
+    summary: Import your Figma components and designs with ease.
+  - title: Joining organizations with same domain
+    category: New
+    summary: Organization owners can allow users sharing an email domain to auto-join during signup.

@@ -1,0 +1,36 @@
+# Uizard
+
+> Uizard is an AI-powered UI design and prototyping platform that lets non-designers turn text prompts, screenshots, and hand-drawn sketches into editable mockups and multi-screen prototypes. Founded in Copenhagen out of the pix2code machine-learning research project, Uizard joined Miro in May 2024 and continues to operate as its own product. Uizard publishes no public API, developer portal, or client SDKs.
+
+Key AI features: Autodesigner 2.0 (text-to-multi-screen prototypes), Design Assistant, Screenshot Scanner (screenshots to editable mockups), Wireframe Scanner (sketches to digital designs), Design Review, and theme generation. A Figma-to-Uizard plugin imports Figma components and designs.
+
+## Website
+
+- [Uizard](https://uizard.io/): AI-powered UI design tool for mobile apps, websites, and web apps
+- [Pricing](https://uizard.io/pricing): Free sign-up plus paid tiers; contact sales for enterprise
+- [About](https://uizard.io/about): Company mission, team, and story (pix2code research origins)
+- [Blog](https://uizard.io/blog): Product and design blog
+- [Research](https://uizard.io/research): Machine-learning research behind the product
+- [Templates](https://uizard.io/templates): UI design templates
+- [Sign up](https://app.uizard.io/auth/sign-up): Create an account
+- [Release notes](https://updates.uizard.io/): Product updates (Headway changelog)
+
+## Support
+
+- [Help Center](https://support.uizard.io/en/): Intercom-hosted help center (getting started, AI features, designing, billing, troubleshooting)
+- [Contact](https://uizard.io/contact): Contact the Uizard team
+
+## Legal
+
+- [Terms of Service](https://uizard.io/terms-of-service)
+- [Privacy Policy](https://uizard.io/privacy)
+
+## Open Source
+
+- [GitHub organization](https://github.com/uizard-technologies): uizard-technologies (nx-fast-s3-cache build tooling, RealMix research code)
+- [@uizard/nx-fast-s3-cache](https://www.npmjs.com/package/@uizard/nx-fast-s3-cache): First-party open-source Nx S3 build-cache plugin (not an API client)
+
+## Notes for agents
+
+- Uizard exposes no public API, OpenAPI, webhooks, MCP server, or CLI as of 2026-07-21; there is nothing to integrate with programmatically.
+- The product is used through the web app at app.uizard.io.
