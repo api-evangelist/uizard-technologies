@@ -1,0 +1,27 @@
+# Front Door AI Index — uizard-technologies — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: uizard-technologies
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: uizard.io
+  final_host: uizard.io
+  ownership: own
+  owner: uizard-technologies
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 75
+  host_score: 75
+  density: 25.06
+  words: 2993
+  tiers:
+    agentic: 20
+    core: 55
+    model: 0
+  ambiguous: 4
+  top_terms:
+    AI: 55
+    prompts: 20
+    predictive: 4
