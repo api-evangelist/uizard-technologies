@@ -1,0 +1,53 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://uizard.io/pricing/
+sources:
+- https://uizard.io/pricing/
+- https://uizard.io/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Design SaaS pricing page; monthly prices shown billed annually, Enterprise custom.
+plan_count: 4
+currency: USD
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  included_quota: '3 AI generations per month, AI engine: Autodesigner 1.5, 2 projects, 10 free templates,
+    unlimited free viewers/commenters'
+- name: Pro
+  price_text: $12 per month
+  price: 12
+  currency: USD
+  period: month
+  included_quota: Billed annually; 500 AI generations per month, Autodesigner 2.0, developer handoff React
+    CSS, up to 100 projects, private projects, all templates
+- name: Business
+  price_text: $39 per month
+  price: 39
+  currency: USD
+  period: month
+  included_quota: Billed annually; everything from Pro, 5,000 AI generations per month, faster AI generation,
+    custom brand kit, unlimited projects, priority support
+- name: Enterprise
+  price_text: Contact Sales
+  period: none
+  included_quota: 15+ Billed annually; unlimited AI generations, unlimited teams, design system setup,
+    AI data SLA, custom billing, whiteglove onboarding
+rate_limit_statements:
+- 3 AI generations per month
+- 500 AI generations per month
+- 5,000 AI generations per month
